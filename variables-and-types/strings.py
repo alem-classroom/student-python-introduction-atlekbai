@@ -1,5 +1,3 @@
-import strings
-
 def size_of_str(str):
    return len(str)
 
@@ -19,3 +17,7 @@ def reverse(str):
 def is_substring(str, substr):
     # return true if substr is the substring of str, false otherwise
     return substr in str
+
+# print(reverse('crosswalk'))
+# first_str='crosswalk'
+# assert reverse(first_str) == strings.reverse(first_str)
