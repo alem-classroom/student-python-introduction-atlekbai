@@ -1,3 +1,5 @@
+import strings
+
 def size_of_str(str):
    return len(str)
 
